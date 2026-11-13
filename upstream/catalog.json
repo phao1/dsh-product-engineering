@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "repository": "https://github.com/phuryn/product-engineering",
+    "commit": "bdb2389c7636f6615c37fd66dd8518986284ec01"
+  },
+  "packs": [
+    {
+      "id": "product",
+      "title": "Product",
+      "titleZh": "产品策略",
+      "description": "Product discovery, segmentation, positioning, and growth strategy."
+    },
+    {
+      "id": "ai-shipping",
+      "title": "AI Shipping",
+      "titleZh": "AI 交付",
+      "description": "Review, test, document, and release software with evidence."
+    },
+    {
+      "id": "agent-teams",
+      "title": "Agent Teams",
+      "titleZh": "智能体协作",
+      "description": "Delegate bounded work and verify handoffs from independent agents."
+    },
+    {
+      "id": "agent-harness",
+      "title": "Agent Harness",
+      "titleZh": "智能体运行机制",
+      "description": "Maintain project instructions, guardrails, status, and session handovers."
+    },
+    {
+      "id": "app-stack",
+      "title": "App Stack",
+      "titleZh": "应用技术栈",
+      "description": "Build and operate SaaS applications and their vendor integrations."
+    },
+    {
+      "id": "work-humanizer",
+      "title": "Work Humanizer",
+      "titleZh": "工作文稿润色",
+      "description": "Edit work writing while preserving the author’s facts and intent."
+    }
+  ],
+  "skills": [
+    {
+      "name": "pe-start-here",
+      "originalName": "start-here",
+      "title": "Start Here",
+      "titleZh": "定位产品阶段",
+      "description": "Where to start, and what comes next, along the product lifecycle: from a new idea, new evidence, an agreed change, a bug or a release to the next step and the skill that does it. Start with /pe-start-here.",
+      "pack": "product",
+      "stage": "discover",
+      "userInvocable": true,
+      "modelInvocable": false,
+      "relativePath": "skills/pe-start-here/SKILL.md",
+      "sourcePath": "product/skills/start-here/SKILL.md",
+      "resourceBase": "skills/pe-start-here"
+    },
+    {
+      "name": "pe-propose",
+      "originalName": "propose",
+      "title": "Product Proposal",
+      "titleZh": "产品提案",
+      "description": "'I have an idea', 'is this worth building', 'what next': research it and propose what to build, with sources and key screens to review. Not for agreed changes or bugs.",
+      "pack": "product",
+      "stage": "discover",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-propose/SKILL.md",
+      "sourcePath": "product/skills/propose/SKILL.md",
+      "resourceBase": "skills/pe-propose",
+      "capabilities": [
+        "web",
+        "browser"
+      ]
+    },
+    {
+      "name": "pe-competitor-analysis",
+      "originalName": "competitor-analysis",
+      "title": "Competitor Analysis",
+      "titleZh": "竞品分析",
+      "description": "Competitive research or a competitive brief: competitors and substitutes, their strengths and weaknesses, where to differentiate.",
+      "pack": "product",
+      "stage": "discover",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-competitor-analysis/SKILL.md",
+      "sourcePath": "product/skills/competitor-analysis/SKILL.md",
+      "resourceBase": "skills/pe-competitor-analysis",
+      "capabilities": [
+        "web"
+      ]
+    },
+    {
+      "name": "pe-market-segments",
+      "originalName": "market-segments",
+      "title": "Market Segments",
+      "titleZh": "市场细分",
+      "description": "Exploring customer segments, audiences or new markets: 3-5 segments with their jobs, pains and product fit.",
+      "pack": "product",
+      "stage": "discover",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-market-segments/SKILL.md",
+      "sourcePath": "product/skills/market-segments/SKILL.md",
+      "resourceBase": "skills/pe-market-segments"
+    },
+    {
+      "name": "pe-beachhead-segment",
+      "originalName": "beachhead-segment",
+      "title": "Beachhead Segment",
+      "titleZh": "选择首个目标市场",
+      "description": "Choosing the first market or customer segment to win, scored on burning pain, willingness to pay, winnable share and referrals.",
+      "pack": "product",
+      "stage": "discover",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-beachhead-segment/SKILL.md",
+      "sourcePath": "product/skills/beachhead-segment/SKILL.md",
+      "resourceBase": "skills/pe-beachhead-segment"
+    },
+    {
+      "name": "pe-value-curve",
+      "originalName": "value-curve",
+      "title": "Value Curve",
+      "titleZh": "价值曲线",
+      "description": "Comparing a product with competitors or choosing what to be best at: a value curve on one segment's top needs, plus price.",
+      "pack": "product",
+      "stage": "discover",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-value-curve/SKILL.md",
+      "sourcePath": "product/skills/value-curve/SKILL.md",
+      "resourceBase": "skills/pe-value-curve"
+    },
+    {
+      "name": "pe-value-proposition",
+      "originalName": "value-proposition",
+      "title": "Value Proposition",
+      "titleZh": "价值主张",
+      "description": "Creating or testing a value proposition: the 6-part form (Who, Why, What before, How, What after, Alternatives).",
+      "pack": "product",
+      "stage": "discover",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-value-proposition/SKILL.md",
+      "sourcePath": "product/skills/value-proposition/SKILL.md",
+      "resourceBase": "skills/pe-value-proposition"
+    },
+    {
+      "name": "pe-growth-loops",
+      "originalName": "growth-loops",
+      "title": "Growth Loops",
+      "titleZh": "增长循环",
+      "description": "Designing how a product grows: loops that compound (viral, usage, collaboration, user-generated, referral).",
+      "pack": "product",
+      "stage": "grow",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-growth-loops/SKILL.md",
+      "sourcePath": "product/skills/growth-loops/SKILL.md",
+      "resourceBase": "skills/pe-growth-loops"
+    },
+    {
+      "name": "pe-ship-check",
+      "originalName": "ship-check",
+      "title": "Ship Check",
+      "titleZh": "发布前全面检查",
+      "description": "Is this safe to ship? Documents the app, wires the agent's context, runs the correctness, security and performance reviews and an independent unsteered pass, maps test coverage, and compiles one reviewer-ready shipping packet. Start with /pe-ship-check.",
+      "pack": "ai-shipping",
+      "stage": "ship",
+      "userInvocable": true,
+      "modelInvocable": false,
+      "relativePath": "skills/pe-ship-check/SKILL.md",
+      "sourcePath": "ai-shipping/skills/ship-check/SKILL.md",
+      "resourceBase": "skills/pe-ship-check",
+      "capabilities": [
+        "isolated-reviewer"
+      ]
+    },
+    {
+      "name": "pe-code-review",
+      "originalName": "code-review",
+      "title": "Code Review",
+      "titleZh": "代码审查",
+      "description": "'Review this', 'find bugs', 'is this fix safe': review code for defects that matter, correctness first, each finding refuted before it's reported.",
+      "pack": "ai-shipping",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-code-review/SKILL.md",
+      "sourcePath": "ai-shipping/skills/code-review/SKILL.md",
+      "resourceBase": "skills/pe-code-review"
+    },
+    {
+      "name": "pe-independent-review",
+      "originalName": "independent-review",
+      "title": "Independent Review",
+      "titleZh": "独立审查",
+      "description": "Before 'ship it', a deploy or release, for 'an independent review', and after each fix until a round is clean: a fresh reviewer that never saw the build.",
+      "pack": "ai-shipping",
+      "stage": "ship",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-independent-review/SKILL.md",
+      "sourcePath": "ai-shipping/skills/independent-review/SKILL.md",
+      "resourceBase": "skills/pe-independent-review",
+      "capabilities": [
+        "isolated-reviewer"
+      ]
+    },
+    {
+      "name": "pe-intended-vs-implemented",
+      "originalName": "intended-vs-implemented",
+      "title": "Intended vs. Implemented",
+      "titleZh": "核对设计与实现",
+      "description": "Auditing AI-built code against its docs: where it does what the docs or permissions don't say, access control against documented roles, cited both sides.",
+      "pack": "ai-shipping",
+      "stage": "ship",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-intended-vs-implemented/SKILL.md",
+      "sourcePath": "ai-shipping/skills/intended-vs-implemented/SKILL.md",
+      "resourceBase": "skills/pe-intended-vs-implemented"
+    },
+    {
+      "name": "pe-shipping-artifacts",
+      "originalName": "shipping-artifacts",
+      "title": "Shipping Artifacts",
+      "titleZh": "交付文档",
+      "description": "Documenting an AI-built app for handoff, review or audit: the docs that make it reviewable (architecture, flows, permissions, variables, coverage).",
+      "pack": "ai-shipping",
+      "stage": "ship",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-shipping-artifacts/SKILL.md",
+      "sourcePath": "ai-shipping/skills/shipping-artifacts/SKILL.md",
+      "resourceBase": "skills/pe-shipping-artifacts"
+    },
+    {
+      "name": "pe-release-gate",
+      "originalName": "release-gate",
+      "title": "Release Gate",
+      "titleZh": "发布门禁",
+      "description": "Before 'push it', 'ship it', a deploy, release or go-live, or calling a stage done: the gate, the owner's preview, go/no-go, promote, prove it serves, roll back.",
+      "pack": "ai-shipping",
+      "stage": "ship",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-release-gate/SKILL.md",
+      "sourcePath": "ai-shipping/skills/release-gate/SKILL.md",
+      "resourceBase": "skills/pe-release-gate",
+      "capabilities": [
+        "browser",
+        "dependency:deployment-service"
+      ]
+    },
+    {
+      "name": "pe-test-harness",
+      "originalName": "test-harness",
+      "title": "Test Harness",
+      "titleZh": "测试机制",
+      "description": "Writing or running tests, proving a fix, a red or flaky run, a fix that didn't land, 'is it verified', 'run the gate': tests where green means something.",
+      "pack": "ai-shipping",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-test-harness/SKILL.md",
+      "sourcePath": "ai-shipping/skills/test-harness/SKILL.md",
+      "resourceBase": "skills/pe-test-harness",
+      "capabilities": [
+        "browser"
+      ]
+    },
+    {
+      "name": "pe-document-app",
+      "originalName": "document-app",
+      "title": "Document App",
+      "titleZh": "应用文档",
+      "description": "'Document the app': write or refresh an app's system docs from its code. 'Are the docs right?': check mode, which only reports where docs and code disagree.",
+      "pack": "ai-shipping",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-document-app/SKILL.md",
+      "sourcePath": "ai-shipping/skills/document-app/SKILL.md",
+      "resourceBase": "skills/pe-document-app"
+    },
+    {
+      "name": "pe-derive-tests",
+      "originalName": "derive-tests",
+      "title": "Derive Tests",
+      "titleZh": "推导测试覆盖",
+      "description": "'What should we test' or a coverage map: derive the coverage map and missing tests from docs and code; check mode reports staleness.",
+      "pack": "ai-shipping",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-derive-tests/SKILL.md",
+      "sourcePath": "ai-shipping/skills/derive-tests/SKILL.md",
+      "resourceBase": "skills/pe-derive-tests"
+    },
+    {
+      "name": "pe-security-audit-static",
+      "originalName": "security-audit-static",
+      "title": "Static Security Audit",
+      "titleZh": "静态安全审计",
+      "description": "Only when a security audit is asked for (pe-ship-check asks by name; a release proposes one, never runs it): a static audit of AI-built code against its documented trust boundaries.",
+      "pack": "ai-shipping",
+      "stage": "ship",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-security-audit-static/SKILL.md",
+      "sourcePath": "ai-shipping/skills/security-audit-static/SKILL.md",
+      "resourceBase": "skills/pe-security-audit-static"
+    },
+    {
+      "name": "pe-performance-audit-static",
+      "originalName": "performance-audit-static",
+      "title": "Static Performance Audit",
+      "titleZh": "静态性能审计",
+      "description": "Only when a performance audit is asked for (pe-ship-check asks by name; a release proposes, never runs it): static audit of N+1 queries, over-fetching, indexes, caching.",
+      "pack": "ai-shipping",
+      "stage": "ship",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-performance-audit-static/SKILL.md",
+      "sourcePath": "ai-shipping/skills/performance-audit-static/SKILL.md",
+      "resourceBase": "skills/pe-performance-audit-static"
+    },
+    {
+      "name": "pe-delegation",
+      "originalName": "delegation",
+      "title": "Delegation",
+      "titleZh": "任务委派",
+      "description": "Before spawning a subagent or dispatching a build, review or research, and before trusting its report: the brief, the delegate, parallel runs, the handoff.",
+      "pack": "agent-teams",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-delegation/SKILL.md",
+      "sourcePath": "agent-teams/skills/delegation/SKILL.md",
+      "resourceBase": "skills/pe-delegation",
+      "capabilities": [
+        "subagent"
+      ]
+    },
+    {
+      "name": "pe-codex-agents",
+      "originalName": "codex-agents",
+      "title": "Codex Agents",
+      "titleZh": "Codex 智能体",
+      "description": "'Ask Codex', 'check with Codex', handing Codex a build or review, or stuck between two framings: the Codex CLI as peer, builder or fresh reviewer.",
+      "pack": "agent-teams",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-codex-agents/SKILL.md",
+      "sourcePath": "agent-teams/skills/codex-agents/SKILL.md",
+      "resourceBase": "skills/pe-codex-agents",
+      "capabilities": [
+        "cli:codex"
+      ]
+    },
+    {
+      "name": "pe-grok-agents",
+      "originalName": "grok-agents",
+      "title": "Grok Agents",
+      "titleZh": "Grok 智能体",
+      "description": "'Ask Grok', 'have Grok build or review this': drive the Grok CLI headless from another agent as a peer, builder or fresh reviewer.",
+      "pack": "agent-teams",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-grok-agents/SKILL.md",
+      "sourcePath": "agent-teams/skills/grok-agents/SKILL.md",
+      "resourceBase": "skills/pe-grok-agents",
+      "capabilities": [
+        "cli:grok"
+      ]
+    },
+    {
+      "name": "pe-claude-agents",
+      "originalName": "claude-agents",
+      "title": "Claude Agents",
+      "titleZh": "Claude 智能体",
+      "description": "'Ask Claude', 'have Claude build or review this': drive Claude Code headless (claude -p) from another agent as a peer, builder or fresh reviewer.",
+      "pack": "agent-teams",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-claude-agents/SKILL.md",
+      "sourcePath": "agent-teams/skills/claude-agents/SKILL.md",
+      "resourceBase": "skills/pe-claude-agents",
+      "capabilities": [
+        "cli:claude"
+      ]
+    },
+    {
+      "name": "pe-handover",
+      "originalName": "handover",
+      "title": "Handover",
+      "titleZh": "会话交接",
+      "description": "Write the handover a fresh session starts from: the objective, what is true now, the evidence actually obtained, what is left, the open decisions and the next concrete action, reconciled with the disk first. Start with /pe-handover.",
+      "pack": "agent-harness",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": false,
+      "relativePath": "skills/pe-handover/SKILL.md",
+      "sourcePath": "agent-harness/skills/handover/SKILL.md",
+      "resourceBase": "skills/pe-handover"
+    },
+    {
+      "name": "pe-retro",
+      "originalName": "retro",
+      "title": "Retrospective",
+      "titleZh": "会话复盘",
+      "description": "Build a session's learnings into the setup: its friction, what went wrong and why, then an improved instruction, route, hook or script, verified, or 'no setup change warranted'. Start with /pe-retro.",
+      "pack": "agent-harness",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": false,
+      "relativePath": "skills/pe-retro/SKILL.md",
+      "sourcePath": "agent-harness/skills/retro/SKILL.md",
+      "resourceBase": "skills/pe-retro"
+    },
+    {
+      "name": "pe-agent-instructions",
+      "originalName": "agent-instructions",
+      "title": "Agent Instructions",
+      "titleZh": "项目智能体指令",
+      "description": "Writing or restructuring AGENTS.md or CLAUDE.md, adding a rule ('remember this'), or after an agent ignored a rule it had: make each rule get met when it applies.",
+      "pack": "agent-harness",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-agent-instructions/SKILL.md",
+      "sourcePath": "agent-harness/skills/agent-instructions/SKILL.md",
+      "resourceBase": "skills/pe-agent-instructions"
+    },
+    {
+      "name": "pe-guardrail-hooks",
+      "originalName": "guardrail-hooks",
+      "title": "Guardrail Hooks",
+      "titleZh": "工具权限与规则",
+      "description": "An agent keeps breaking a rule ('it did it again', 'make this impossible', 'add a hook', 'my hook didn't fire'): make it a hook, permission rule or script.",
+      "pack": "agent-harness",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-guardrail-hooks/SKILL.md",
+      "sourcePath": "agent-harness/skills/guardrail-hooks/SKILL.md",
+      "resourceBase": "skills/pe-guardrail-hooks"
+    },
+    {
+      "name": "pe-flight-deck",
+      "originalName": "flight-deck",
+      "title": "Flight Deck",
+      "titleZh": "工作状态看板",
+      "description": "'What's the status', 'where were we', a progress report or status deck; long work that must survive compaction: multi-hour runs, background jobs, waiting on a decision.",
+      "pack": "agent-harness",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-flight-deck/SKILL.md",
+      "sourcePath": "agent-harness/skills/flight-deck/SKILL.md",
+      "resourceBase": "skills/pe-flight-deck"
+    },
+    {
+      "name": "pe-windows-agent-shell",
+      "originalName": "windows-agent-shell",
+      "title": "Windows Agent Shell",
+      "titleZh": "Windows 命令行排错",
+      "description": "A coding agent on Windows: Git Bash path rewriting, PowerShell quoting and encoding, CRLF. Use when output comes back garbled, or it works here and breaks there.",
+      "pack": "agent-harness",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-windows-agent-shell/SKILL.md",
+      "sourcePath": "agent-harness/skills/windows-agent-shell/SKILL.md",
+      "resourceBase": "skills/pe-windows-agent-shell"
+    },
+    {
+      "name": "pe-app-lifecycle",
+      "originalName": "app-lifecycle",
+      "title": "App Lifecycle",
+      "titleZh": "应用生命周期",
+      "description": "Planning a SaaS stage, 'what's next', 'where are we', calling a stage done: the detailed path from an idea to production, each stage with its done-when.",
+      "pack": "app-stack",
+      "stage": "design",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-app-lifecycle/SKILL.md",
+      "sourcePath": "app-stack/skills/app-lifecycle/SKILL.md",
+      "resourceBase": "skills/pe-app-lifecycle"
+    },
+    {
+      "name": "pe-saas-authorization",
+      "originalName": "saas-authorization",
+      "title": "SaaS Authorization",
+      "titleZh": "SaaS 权限设计",
+      "description": "Adding sign-in, a role, a route that touches data, API tokens, a webhook or job, or 'is this secure': who may do what in a multi-tenant SaaS.",
+      "pack": "app-stack",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-saas-authorization/SKILL.md",
+      "sourcePath": "app-stack/skills/saas-authorization/SKILL.md",
+      "resourceBase": "skills/pe-saas-authorization"
+    },
+    {
+      "name": "pe-supabase-production",
+      "originalName": "supabase-production",
+      "title": "Supabase Production",
+      "titleZh": "Supabase 生产运维",
+      "description": "A Supabase query, RPC or migration, 'db push', 'supabase link', RLS or grants, a Supabase error: server-only keys, deny-all RLS, migrations via the CLI.",
+      "pack": "app-stack",
+      "stage": "grow",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-supabase-production/SKILL.md",
+      "sourcePath": "app-stack/skills/supabase-production/SKILL.md",
+      "resourceBase": "skills/pe-supabase-production",
+      "capabilities": [
+        "dependency:supabase"
+      ]
+    },
+    {
+      "name": "pe-clerk-production",
+      "originalName": "clerk-production",
+      "title": "Clerk Production",
+      "titleZh": "Clerk 认证与组织",
+      "description": "Setting up or changing Clerk sign-in, organizations, roles or billing on Next.js, or sign-in that does nothing or lands wrong: Clerk in production.",
+      "pack": "app-stack",
+      "stage": "grow",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-clerk-production/SKILL.md",
+      "sourcePath": "app-stack/skills/clerk-production/SKILL.md",
+      "resourceBase": "skills/pe-clerk-production",
+      "capabilities": [
+        "dependency:clerk"
+      ]
+    },
+    {
+      "name": "pe-environments",
+      "originalName": "environments",
+      "title": "Environments",
+      "titleZh": "环境与密钥管理",
+      "description": "Adding a variable or secret, 'set up production', a domain or a provider token, 'which database is this', a leaked key: dev and production for an AI-built app, backups, incidents.",
+      "pack": "app-stack",
+      "stage": "grow",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-environments/SKILL.md",
+      "sourcePath": "app-stack/skills/environments/SKILL.md",
+      "resourceBase": "skills/pe-environments"
+    },
+    {
+      "name": "pe-ui-design",
+      "originalName": "ui-design",
+      "title": "UI Design",
+      "titleZh": "界面设计",
+      "description": "Designing or reviewing product screens, mocks, prototypes, or artifacts that show them: its design system, colour, type, components; judging the look.",
+      "pack": "app-stack",
+      "stage": "design",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-ui-design/SKILL.md",
+      "sourcePath": "app-stack/skills/ui-design/SKILL.md",
+      "resourceBase": "skills/pe-ui-design",
+      "capabilities": [
+        "browser"
+      ]
+    },
+    {
+      "name": "pe-transactional-email",
+      "originalName": "transactional-email",
+      "title": "Transactional Email",
+      "titleZh": "事务邮件",
+      "description": "Adding transactional or alert email, choosing a provider, 'sent twice', 'never arrived': app email sent once, never lost, with one-click unsubscribe.",
+      "pack": "app-stack",
+      "stage": "grow",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-transactional-email/SKILL.md",
+      "sourcePath": "app-stack/skills/transactional-email/SKILL.md",
+      "resourceBase": "skills/pe-transactional-email",
+      "capabilities": [
+        "dependency:email-service"
+      ]
+    },
+    {
+      "name": "pe-legal-pages",
+      "originalName": "legal-pages",
+      "title": "Legal Pages",
+      "titleZh": "条款与隐私页面",
+      "description": "Privacy policy, terms, a cookie banner, consent at sign-up, a public front door: legal pages drafted from what the code does, held to it by a test, with the owner's facts and sign-off.",
+      "pack": "app-stack",
+      "stage": "ship",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-legal-pages/SKILL.md",
+      "sourcePath": "app-stack/skills/legal-pages/SKILL.md",
+      "resourceBase": "skills/pe-legal-pages"
+    },
+    {
+      "name": "pe-product-analytics",
+      "originalName": "product-analytics",
+      "title": "Product Analytics",
+      "titleZh": "产品分析",
+      "description": "Adding analytics, session recordings, heatmaps, 'what did users do', Clarity or PostHog: behaviour analytics without analytics cookies, read back by the agent.",
+      "pack": "app-stack",
+      "stage": "grow",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-product-analytics/SKILL.md",
+      "sourcePath": "app-stack/skills/product-analytics/SKILL.md",
+      "resourceBase": "skills/pe-product-analytics",
+      "capabilities": [
+        "dependency:analytics-service"
+      ]
+    },
+    {
+      "name": "pe-uptime-monitoring",
+      "originalName": "uptime-monitoring",
+      "title": "Uptime Monitoring",
+      "titleZh": "可用性监控",
+      "description": "Publishing an app, adding /health or a cron job, 'set up monitoring', 'is it down': content checks, a second location, heartbeats, a tested alert route; Staygreen by default.",
+      "pack": "app-stack",
+      "stage": "grow",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-uptime-monitoring/SKILL.md",
+      "sourcePath": "app-stack/skills/uptime-monitoring/SKILL.md",
+      "resourceBase": "skills/pe-uptime-monitoring",
+      "capabilities": [
+        "dependency:monitoring-service"
+      ]
+    },
+    {
+      "name": "pe-mcp-server",
+      "originalName": "mcp-server",
+      "title": "MCP Server",
+      "titleZh": "MCP 服务器",
+      "description": "Before adding a remote MCP server or tool to a web product, adding OAuth to it, or listing it in a directory: ship it right the first time, tests included.",
+      "pack": "app-stack",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-mcp-server/SKILL.md",
+      "sourcePath": "app-stack/skills/mcp-server/SKILL.md",
+      "resourceBase": "skills/pe-mcp-server"
+    },
+    {
+      "name": "pe-chatgpt-plugin",
+      "originalName": "chatgpt-plugin",
+      "title": "ChatGPT App",
+      "titleZh": "ChatGPT 应用与审核",
+      "description": "Before building, submitting or changing a ChatGPT plugin or Apps SDK app: get it through OpenAI's directory review (auth, package, OAuth, data rules, portal).",
+      "pack": "app-stack",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-chatgpt-plugin/SKILL.md",
+      "sourcePath": "app-stack/skills/chatgpt-plugin/SKILL.md",
+      "resourceBase": "skills/pe-chatgpt-plugin",
+      "capabilities": [
+        "dependency:openai-apps-sdk"
+      ]
+    },
+    {
+      "name": "pe-embedded-agents-messages-api",
+      "originalName": "embedded-agents-messages-api",
+      "title": "Embedded Agents (Messages API)",
+      "titleZh": "嵌入式智能体（Messages API）",
+      "description": "Building, adding or wiring up an agent or an agent chat inside a Next.js app: embed Claude agents on the Messages API, the default way.",
+      "pack": "app-stack",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-embedded-agents-messages-api/SKILL.md",
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/SKILL.md",
+      "resourceBase": "skills/pe-embedded-agents-messages-api",
+      "capabilities": [
+        "dependency:anthropic-messages-api"
+      ]
+    },
+    {
+      "name": "pe-embedded-agents-agent-sdk",
+      "originalName": "embedded-agents-agent-sdk",
+      "title": "Embedded Agents (Agent SDK)",
+      "titleZh": "嵌入式智能体（Agent SDK）",
+      "description": "Only when the Agent SDK is asked for, an agent needs Claude Code's own tools, or the app already runs it: embed Claude agents in a Next.js app with the Agent SDK.",
+      "pack": "app-stack",
+      "stage": "build",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/SKILL.md",
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/SKILL.md",
+      "resourceBase": "skills/pe-embedded-agents-agent-sdk",
+      "capabilities": [
+        "dependency:claude-agent-sdk"
+      ]
+    },
+    {
+      "name": "pe-work-humanizer",
+      "originalName": "work-humanizer",
+      "title": "Work Humanizer",
+      "titleZh": "工作文稿润色",
+      "description": "'Make this sound human', 'less AI': edit AI-sounding work writing so a careful person could have written it, without changing what it says.",
+      "pack": "work-humanizer",
+      "stage": "design",
+      "userInvocable": true,
+      "modelInvocable": true,
+      "relativePath": "skills/pe-work-humanizer/SKILL.md",
+      "sourcePath": "work-humanizer/skills/work-humanizer/SKILL.md",
+      "resourceBase": "skills/pe-work-humanizer"
+    }
+  ]
+}

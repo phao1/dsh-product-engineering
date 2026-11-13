@@ -1,0 +1,999 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/phuryn/product-engineering",
+  "commit": "bdb2389c7636f6615c37fd66dd8518986284ec01",
+  "license": "MIT",
+  "files": [
+    {
+      "sourcePath": "LICENSE.md",
+      "relativePath": "LICENSE",
+      "sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/SKILL.md",
+      "relativePath": "skills/pe-agent-instructions/SKILL.md",
+      "sha256": "a79e0a2ce7eb3c8207788817ad2134eea87d252ab850d5045a227c2541a7f2ff"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/receipts.md",
+      "relativePath": "skills/pe-agent-instructions/receipts.md",
+      "sha256": "95bc895d7cc983b50f21e5877e41691c3031d23820473bd95d300249be31335d"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/references/agents-md-skeleton.md",
+      "relativePath": "skills/pe-agent-instructions/references/agents-md-skeleton.md",
+      "sha256": "6a33bc54b3cffc9ae08aba2d4830bff1f00c5f75409818f333ac65d4bb67af78"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/references/maintenance.md",
+      "relativePath": "skills/pe-agent-instructions/references/maintenance.md",
+      "sha256": "08023f3a9decc2632fc148d618f5898591b0d9d5983e32eee917b4566a533ef6"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/references/prose-vs-code.md",
+      "relativePath": "skills/pe-agent-instructions/references/prose-vs-code.md",
+      "sha256": "b3e410a4e357ea0eb987c69550d5d2d877edeb593befab426b84619a72bfd381"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/references/router.md",
+      "relativePath": "skills/pe-agent-instructions/references/router.md",
+      "sha256": "a441cf922db2a2d53ff6181bf385d53f81ff636adddb0dfc5744d9571e35c526"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/references/working-rules.md",
+      "relativePath": "skills/pe-agent-instructions/references/working-rules.md",
+      "sha256": "bc0ed72fe8ba4624121937ff8de6f862a9b991832135b82145528cd7c15a29a4"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/scripts/check_budgets.py",
+      "relativePath": "skills/pe-agent-instructions/scripts/check_budgets.py",
+      "sha256": "096f5c25cd6eb07b0d5ce57faedb5cf75ef34a2ad2e67c69d0f94705c50166a9"
+    },
+    {
+      "sourcePath": "agent-harness/skills/agent-instructions/scripts/check_reachable.py",
+      "relativePath": "skills/pe-agent-instructions/scripts/check_reachable.py",
+      "sha256": "4fab8a6085578d255171480a01559bcea100495e8f87536d34901ec4b91907c9"
+    },
+    {
+      "sourcePath": "agent-harness/skills/flight-deck/SKILL.md",
+      "relativePath": "skills/pe-flight-deck/SKILL.md",
+      "sha256": "f7ce091ca26b4a4b20311bc03d415f67b25e97278c9d17f04242e6d6b7bb9bf6"
+    },
+    {
+      "sourcePath": "agent-harness/skills/flight-deck/assets/owner-page.html",
+      "relativePath": "skills/pe-flight-deck/assets/owner-page.html",
+      "sha256": "df25f62cdbb50c672b12f9dd46549f382e497425f353c76a9ea6d4f44b5b12db"
+    },
+    {
+      "sourcePath": "agent-harness/skills/flight-deck/receipts.md",
+      "relativePath": "skills/pe-flight-deck/receipts.md",
+      "sha256": "3012e10bdaf4b97c6230c1eb411feb78c3fc9d2e18027994ac6411fec2bc8723"
+    },
+    {
+      "sourcePath": "agent-harness/skills/flight-deck/references/other-work.md",
+      "relativePath": "skills/pe-flight-deck/references/other-work.md",
+      "sha256": "f9303f835d282c79d1c4d8a7aa1ef525fd416b99aa1ef02a717be40d5835431a"
+    },
+    {
+      "sourcePath": "agent-harness/skills/flight-deck/references/owner-page.md",
+      "relativePath": "skills/pe-flight-deck/references/owner-page.md",
+      "sha256": "c817724f9681b59013544e08263bd1438367c42884aa814c5e1841e6cc76940f"
+    },
+    {
+      "sourcePath": "agent-harness/skills/guardrail-hooks/SKILL.md",
+      "relativePath": "skills/pe-guardrail-hooks/SKILL.md",
+      "sha256": "cd223fe603d09d6249920e44f827a4936643634e54e758e962942b9d409dabb8",
+      "originalCopy": "upstream/vendor-guides/guardrail-hooks.source.md"
+    },
+    {
+      "sourcePath": "agent-harness/skills/guardrail-hooks/receipts.md",
+      "relativePath": "skills/pe-guardrail-hooks/receipts.md",
+      "sha256": "2b9746f9a57b58146c1fe37bb89c3451410d233597c0d16ea5dfc8c82d44941b"
+    },
+    {
+      "sourcePath": "agent-harness/skills/guardrail-hooks/references/hook-contract.md",
+      "relativePath": "skills/pe-guardrail-hooks/references/hook-contract.md",
+      "sha256": "213afbfeb4a02974ce60168aaf75b5af837b9a918f12c52fca8d516b065c1fd3"
+    },
+    {
+      "sourcePath": "agent-harness/skills/guardrail-hooks/scripts/block_wrong_identity.py",
+      "relativePath": "skills/pe-guardrail-hooks/scripts/block_wrong_identity.py",
+      "sha256": "ea4609219896c6ffaf9a382b4bfe3a38f64f60e2f4c5223fa9d4fb4c93b1c29e"
+    },
+    {
+      "sourcePath": "agent-harness/skills/guardrail-hooks/scripts/guard_one_way_doors.py",
+      "relativePath": "skills/pe-guardrail-hooks/scripts/guard_one_way_doors.py",
+      "sha256": "dcb103c387b70d23782d4469ed332b4d80319611d175cac22f2f8f905350b7ab"
+    },
+    {
+      "sourcePath": "agent-harness/skills/guardrail-hooks/scripts/test_hooks.py",
+      "relativePath": "skills/pe-guardrail-hooks/scripts/test_hooks.py",
+      "sha256": "7d0d164e8c8a33d117854fa6d3516508a53a9a2f73d5574b681d9c96a452faff"
+    },
+    {
+      "sourcePath": "agent-harness/skills/handover/SKILL.md",
+      "relativePath": "skills/pe-handover/SKILL.md",
+      "sha256": "21ccfabe1efcf086ac92266aa9e26ee16a154e8b36b6dc0f1d05f59cdcacf2a8"
+    },
+    {
+      "sourcePath": "agent-harness/skills/handover/agents/openai.yaml",
+      "relativePath": "skills/pe-handover/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "sourcePath": "agent-harness/skills/handover/receipts.md",
+      "relativePath": "skills/pe-handover/receipts.md",
+      "sha256": "0563a745bc33c51809e44e9faa660f54e532a2ac45ae737bc3f91a8fc249e53b"
+    },
+    {
+      "sourcePath": "agent-harness/skills/retro/SKILL.md",
+      "relativePath": "skills/pe-retro/SKILL.md",
+      "sha256": "c0667b03d872a58894d3aaabb8a010fcbb8a16ad0d35a51fef9baa7b8fab6f04"
+    },
+    {
+      "sourcePath": "agent-harness/skills/retro/agents/openai.yaml",
+      "relativePath": "skills/pe-retro/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "sourcePath": "agent-harness/skills/retro/receipts.md",
+      "relativePath": "skills/pe-retro/receipts.md",
+      "sha256": "6bd39a57b15d87c7ca71b74842331eb5cfcca922cb15c32d719085ce0cc6d8ff"
+    },
+    {
+      "sourcePath": "agent-harness/skills/windows-agent-shell/SKILL.md",
+      "relativePath": "skills/pe-windows-agent-shell/SKILL.md",
+      "sha256": "577f1131fac9d3d4d44e9d7db3e6769f078dcfd6cac262565bc36d3de8b69c1a"
+    },
+    {
+      "sourcePath": "agent-harness/skills/windows-agent-shell/receipts.md",
+      "relativePath": "skills/pe-windows-agent-shell/receipts.md",
+      "sha256": "3badd4b5c0028f2a677bf4f9ecf3b15ab56dc23d2c0932859150346424cdaf34"
+    },
+    {
+      "sourcePath": "agent-harness/skills/windows-agent-shell/scripts/check_text.py",
+      "relativePath": "skills/pe-windows-agent-shell/scripts/check_text.py",
+      "sha256": "1a12d9b8bdeeee46d676eae8fde9ea4b57d77412fe3a45d41aaadbd2e081f37b"
+    },
+    {
+      "sourcePath": "agent-harness/skills/windows-agent-shell/scripts/probe_argv.py",
+      "relativePath": "skills/pe-windows-agent-shell/scripts/probe_argv.py",
+      "sha256": "c39197c177e8d1034a61f218a2844457a5214e44853a68e2bdd44b53a745f782"
+    },
+    {
+      "sourcePath": "agent-teams/skills/claude-agents/SKILL.md",
+      "relativePath": "skills/pe-claude-agents/SKILL.md",
+      "sha256": "39f6ac81f58b6837e34fb5a2fe4805f9b41e6822f1bd597bd3808c675f8d1c7a",
+      "originalCopy": "upstream/vendor-guides/claude-agents.source.md"
+    },
+    {
+      "sourcePath": "agent-teams/skills/claude-agents/receipts.md",
+      "relativePath": "skills/pe-claude-agents/receipts.md",
+      "sha256": "e52c29d6b6052cf48f6b71ab32f7b6ebb10da614c70604ca2e2af663729bc898"
+    },
+    {
+      "sourcePath": "agent-teams/skills/claude-agents/scripts/claude_agent.py",
+      "relativePath": "skills/pe-claude-agents/scripts/claude_agent.py",
+      "sha256": "3c39f3a496a07ca1e60f316b25ff757263b9711264bb8dc8558766d59c37173f"
+    },
+    {
+      "sourcePath": "agent-teams/skills/codex-agents/SKILL.md",
+      "relativePath": "skills/pe-codex-agents/SKILL.md",
+      "sha256": "e20999352e0ac98ee8812596cffce19f3f723104bcf4befbaa0889f4d5db0aa6",
+      "originalCopy": "upstream/vendor-guides/codex-agents.source.md"
+    },
+    {
+      "sourcePath": "agent-teams/skills/codex-agents/receipts.md",
+      "relativePath": "skills/pe-codex-agents/receipts.md",
+      "sha256": "74168abb457ef968a425ab090c1f9031d827fe5155652624eac92217f9215f44"
+    },
+    {
+      "sourcePath": "agent-teams/skills/codex-agents/scripts/codex.py",
+      "relativePath": "skills/pe-codex-agents/scripts/codex.py",
+      "sha256": "e1793defcd5efaf2bed2774f8f74d5d10fcdf165f29869a04b0198a5eaa0ed49"
+    },
+    {
+      "sourcePath": "agent-teams/skills/delegation/SKILL.md",
+      "relativePath": "skills/pe-delegation/SKILL.md",
+      "sha256": "902e8520a9c845a0b5ee7a12b35dbf4d9ce84976bc9fda83c262753b5eada945"
+    },
+    {
+      "sourcePath": "agent-teams/skills/delegation/receipts.md",
+      "relativePath": "skills/pe-delegation/receipts.md",
+      "sha256": "8e0eedc1585b2e8c324375fc25f4b04a3cff3cef0d791b50147bdd792217afdc"
+    },
+    {
+      "sourcePath": "agent-teams/skills/delegation/references/brief-template.md",
+      "relativePath": "skills/pe-delegation/references/brief-template.md",
+      "sha256": "24926c3ab3d97e5a05d03b13afb7551b731b21f5707ba0f42dead2890051c351"
+    },
+    {
+      "sourcePath": "agent-teams/skills/grok-agents/SKILL.md",
+      "relativePath": "skills/pe-grok-agents/SKILL.md",
+      "sha256": "db8b9234f2f9189f07bea30f82e4d7d734f7bd66c556af79abf9f63ab7befbd3",
+      "originalCopy": "upstream/vendor-guides/grok-agents.source.md"
+    },
+    {
+      "sourcePath": "agent-teams/skills/grok-agents/receipts.md",
+      "relativePath": "skills/pe-grok-agents/receipts.md",
+      "sha256": "9dbcae6c970a5180cf9e9c5ae158e19916d09cfb535434dbe571a831b3cb22c6"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/code-review/SKILL.md",
+      "relativePath": "skills/pe-code-review/SKILL.md",
+      "sha256": "522ec38ac93745b7ad399754e96d1d56406845d5883cd0198b6b49713af47d52"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/code-review/receipts.md",
+      "relativePath": "skills/pe-code-review/receipts.md",
+      "sha256": "230e718c36a47aa5bd12f9dfff01ad079c46cf135504969b229c8674aa38f874"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/code-review/references/correctness-taxonomy.md",
+      "relativePath": "skills/pe-code-review/references/correctness-taxonomy.md",
+      "sha256": "3acf6e7b6e3993b340ef1eb8f96f10edc8b2dc085aa9dc9051c1679a9adcbf63"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/code-review/references/performance-review.md",
+      "relativePath": "skills/pe-code-review/references/performance-review.md",
+      "sha256": "c20bba9489d3e3c35ad97a0e2756c90bcdbd9d22776ee94d844a63da514d0780"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/code-review/references/security-review.md",
+      "relativePath": "skills/pe-code-review/references/security-review.md",
+      "sha256": "964004db220affe3b3d467d5769d052e7fdf1dfc878cd14388e1837fad546da2"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/derive-tests/SKILL.md",
+      "relativePath": "skills/pe-derive-tests/SKILL.md",
+      "sha256": "3966f96a2e4645ec76bbbf0319538aa873eb2624477137c25c03b6057254e9f1"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/document-app/SKILL.md",
+      "relativePath": "skills/pe-document-app/SKILL.md",
+      "sha256": "60ea923b0814839979caf9e166c456f9083bb8d69a00c2e4fec453fcbf011811"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/independent-review/SKILL.md",
+      "relativePath": "skills/pe-independent-review/SKILL.md",
+      "sha256": "02576c64d068c987c40a41c535a94efe2a853e4e89d4a6260d2999397127008e",
+      "originalCopy": "upstream/vendor-guides/independent-review.source.md"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/independent-review/receipts.md",
+      "relativePath": "skills/pe-independent-review/receipts.md",
+      "sha256": "591ab7f6f49148090e45d8a55d52d5bb1c41cbc0b260de8ee5048f1a9363dcd9"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/independent-review/scripts/review.py",
+      "relativePath": "skills/pe-independent-review/scripts/review.py",
+      "sha256": "5d660960dabb9c5807c8b19adeac03298f2f995e01d396a0441bf00edca61362"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/intended-vs-implemented/SKILL.md",
+      "relativePath": "skills/pe-intended-vs-implemented/SKILL.md",
+      "sha256": "2dc5d4f24de7db93806b9b315ebde3b5e79bb80c3bae7c1f8199d16bd42e44a6"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/performance-audit-static/SKILL.md",
+      "relativePath": "skills/pe-performance-audit-static/SKILL.md",
+      "sha256": "a350917fa5a0308891700f7c7097dda8a84f346ca9a23f3ed483e055bda59023"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/release-gate/SKILL.md",
+      "relativePath": "skills/pe-release-gate/SKILL.md",
+      "sha256": "d34f3ac0d2644c76891e6124a203c9969f184ad4071e67986d2b9b28973503d6"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/release-gate/receipts.md",
+      "relativePath": "skills/pe-release-gate/receipts.md",
+      "sha256": "b128655dcb2faafc4a922c9c7cae2ed58d08f8265050a3bebf7b420148ceba7e"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/release-gate/references/checklist.md",
+      "relativePath": "skills/pe-release-gate/references/checklist.md",
+      "sha256": "329f3c37c02dd5a14bf7b378e7ae4adb3238f149b1713b2fee2da85a622f9e61"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/release-gate/references/go-live.md",
+      "relativePath": "skills/pe-release-gate/references/go-live.md",
+      "sha256": "a4e2005fb71fe253da801e6af6d64df73e369fce3f67fce68e011f85bcef2943"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/release-gate/references/netlify.md",
+      "relativePath": "skills/pe-release-gate/references/netlify.md",
+      "sha256": "92d0229e4c17de81c0411870fd8cdd8305b40affec5e6c4c9db6b42b5d10c3d8"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/release-gate/references/runbook.md",
+      "relativePath": "skills/pe-release-gate/references/runbook.md",
+      "sha256": "ecd75ac13f8149e7bb3dee3a53c1d31ba63396188257d91a9d08ac92668b061c"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/security-audit-static/SKILL.md",
+      "relativePath": "skills/pe-security-audit-static/SKILL.md",
+      "sha256": "067d0447c32cad59a0fdbb983ce33729b6a57d8741f8b922402d56714694ddc0"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/ship-check/SKILL.md",
+      "relativePath": "skills/pe-ship-check/SKILL.md",
+      "sha256": "d9231a8e93adda381f74f36b9a20c15e503a3b848d99f33e0829d93cc6d46a2d",
+      "originalCopy": "upstream/vendor-guides/ship-check.source.md"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/ship-check/agents/openai.yaml",
+      "relativePath": "skills/pe-ship-check/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/ship-check/scripts/review.py",
+      "relativePath": "skills/pe-ship-check/scripts/review.py",
+      "sha256": "5d660960dabb9c5807c8b19adeac03298f2f995e01d396a0441bf00edca61362"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/shipping-artifacts/SKILL.md",
+      "relativePath": "skills/pe-shipping-artifacts/SKILL.md",
+      "sha256": "4d6bd325d2954dbff798ab2646c174c25c463c6c5dc8f98a41ce2e1277a6a0fc"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/test-harness/SKILL.md",
+      "relativePath": "skills/pe-test-harness/SKILL.md",
+      "sha256": "4ced9cc55c26ede4f35f2406a82867e7ac5ef981a77ecc3195ac8dbc136115a4"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/test-harness/receipts.md",
+      "relativePath": "skills/pe-test-harness/receipts.md",
+      "sha256": "8e24646d08981a56552d67b141c6d7552624a8c20ce95f998f0f34f851425863"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/test-harness/references/captures.md",
+      "relativePath": "skills/pe-test-harness/references/captures.md",
+      "sha256": "ff9d2627d3cfb26ce6ddd01c84535cb93edd841b857932344e4d7bf7a20626dd"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/test-harness/references/coverage-map.md",
+      "relativePath": "skills/pe-test-harness/references/coverage-map.md",
+      "sha256": "55b3b25754be29705d1e4181dbdb544f56d0eaa9079b69e85fa77d83963a1361"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/test-harness/references/harnesses.md",
+      "relativePath": "skills/pe-test-harness/references/harnesses.md",
+      "sha256": "3bca842a8f6d0194e34d4d904376b19b0e95a2d5e36de83b1e4a42442a6255da"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/test-harness/references/rules-from-bugs.md",
+      "relativePath": "skills/pe-test-harness/references/rules-from-bugs.md",
+      "sha256": "8acf6a416b4a313e66381a2dc8c96e21b9d1fa821c036f7b901734acd770d24b"
+    },
+    {
+      "sourcePath": "ai-shipping/skills/test-harness/references/vendor-surfaces.md",
+      "relativePath": "skills/pe-test-harness/references/vendor-surfaces.md",
+      "sha256": "bbd30fce596c6275d25b924e16bea4866a60ef7549b0675ab6e8dd4272b08293"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/SKILL.md",
+      "relativePath": "skills/pe-app-lifecycle/SKILL.md",
+      "sha256": "cd2688099089f98c01d85d2217bcc9d3bcec2b5e1899985cf8fbaac9c2c37bb2"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/receipts.md",
+      "relativePath": "skills/pe-app-lifecycle/receipts.md",
+      "sha256": "4053f8d600d84f6f547121bc5c9360d835c1856192c8f1486bdd96a0a8d02760"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/brief.md",
+      "relativePath": "skills/pe-app-lifecycle/references/brief.md",
+      "sha256": "7fceb68e9d33cc79857fc17b3dacc209a86a8966de8b53aeac9240ea04310f34"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/capabilities.md",
+      "relativePath": "skills/pe-app-lifecycle/references/capabilities.md",
+      "sha256": "860d3ef0f6de8f495fd1b3fce8c73e58ba3ae75101929a22b45abc652403a80e"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/decisions.md",
+      "relativePath": "skills/pe-app-lifecycle/references/decisions.md",
+      "sha256": "a79036fc22c032043d2cae6dfbdd66668178b7670ce5c4fd49a05e6484ebc501"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/default-choices.md",
+      "relativePath": "skills/pe-app-lifecycle/references/default-choices.md",
+      "sha256": "939e0b640d1b7355e62350c68ce828c1cad5bbbed2dfbd7fb2d802ce7fe12501"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/plan.md",
+      "relativePath": "skills/pe-app-lifecycle/references/plan.md",
+      "sha256": "21f0d673615b447116c0e08321e44833bafef1b918fce47b9a194defe7b1efe8"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/product-section.md",
+      "relativePath": "skills/pe-app-lifecycle/references/product-section.md",
+      "sha256": "5dc21ce7b01a055830d54f4d39fa359870697079fdb62b1541c53a38278daa8d"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/product-shapes.md",
+      "relativePath": "skills/pe-app-lifecycle/references/product-shapes.md",
+      "sha256": "3c859e26576c1e6e81c10ea029fa517094db24647b981ae4c6885fc354737928"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/stage-brief.md",
+      "relativePath": "skills/pe-app-lifecycle/references/stage-brief.md",
+      "sha256": "43c1068238203c602326c4e5cbab36341fd167b64f22abdec2a14b359bbdf1d3"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/stages.md",
+      "relativePath": "skills/pe-app-lifecycle/references/stages.md",
+      "sha256": "85ccbb54f65156b027c3c97aeb479b7d6dab6238007a3f033f9dbde44d79e3b6"
+    },
+    {
+      "sourcePath": "app-stack/skills/app-lifecycle/references/strategy.md",
+      "relativePath": "skills/pe-app-lifecycle/references/strategy.md",
+      "sha256": "84672058fc84e95bc554b47db8d389765ee01694ab23b4c22bbce0a19d5acf9d"
+    },
+    {
+      "sourcePath": "app-stack/skills/chatgpt-plugin/SKILL.md",
+      "relativePath": "skills/pe-chatgpt-plugin/SKILL.md",
+      "sha256": "68c1b94028eec41904d372c56679efa5cb7a40465f071816fa088af0409455b3"
+    },
+    {
+      "sourcePath": "app-stack/skills/chatgpt-plugin/receipts.md",
+      "relativePath": "skills/pe-chatgpt-plugin/receipts.md",
+      "sha256": "dd0725618f57c8cbb3cc1d80314c2b332e5e566ec072df2a00ae3435bf9db193"
+    },
+    {
+      "sourcePath": "app-stack/skills/chatgpt-plugin/references/package.md",
+      "relativePath": "skills/pe-chatgpt-plugin/references/package.md",
+      "sha256": "f90b624dee9f5b409e803d1e1966a78be558324b61bbb119db66d6da9f7c6e56"
+    },
+    {
+      "sourcePath": "app-stack/skills/chatgpt-plugin/references/portal-and-review.md",
+      "relativePath": "skills/pe-chatgpt-plugin/references/portal-and-review.md",
+      "sha256": "3fe5f573a736a5deaff2675ff5531fdc8911dd326264c280f47e5d302bc72066"
+    },
+    {
+      "sourcePath": "app-stack/skills/chatgpt-plugin/references/server-and-auth.md",
+      "relativePath": "skills/pe-chatgpt-plugin/references/server-and-auth.md",
+      "sha256": "e256f647f92d88ca03c24165cda0ec7730404a6a723b6503926731353ecc9cbd"
+    },
+    {
+      "sourcePath": "app-stack/skills/chatgpt-plugin/references/tools-and-data.md",
+      "relativePath": "skills/pe-chatgpt-plugin/references/tools-and-data.md",
+      "sha256": "4ab6b1acbb2688991cca401e0b0af6f2e857654c54140991a267d13228ba6531"
+    },
+    {
+      "sourcePath": "app-stack/skills/chatgpt-plugin/scripts/check_package.py",
+      "relativePath": "skills/pe-chatgpt-plugin/scripts/check_package.py",
+      "sha256": "8120939a5ab86f329b6a9ce7f5220cd3fd7aa1bf3140f2bd60fe90c6e1586465"
+    },
+    {
+      "sourcePath": "app-stack/skills/chatgpt-plugin/scripts/test_check_package.py",
+      "relativePath": "skills/pe-chatgpt-plugin/scripts/test_check_package.py",
+      "sha256": "b203f0aa8341de3308d90c3428ee72a37034db758621f5b513984c5153b17198"
+    },
+    {
+      "sourcePath": "app-stack/skills/clerk-production/SKILL.md",
+      "relativePath": "skills/pe-clerk-production/SKILL.md",
+      "sha256": "3d5c3d8decb526f726dd00925b8a920cf06907b623ec80518f88b47df42356af"
+    },
+    {
+      "sourcePath": "app-stack/skills/clerk-production/receipts.md",
+      "relativePath": "skills/pe-clerk-production/receipts.md",
+      "sha256": "1a5fb7a5b76b107b71745221eafc6504de5c8e06f25fe440f32e1dbe08ac8b4f"
+    },
+    {
+      "sourcePath": "app-stack/skills/clerk-production/references/authenticated-mile.md",
+      "relativePath": "skills/pe-clerk-production/references/authenticated-mile.md",
+      "sha256": "e8bcac33fafcc13c59f41b4ccf4c2a1118f825bec8d5047b89c2227350083fdf"
+    },
+    {
+      "sourcePath": "app-stack/skills/clerk-production/references/csp-and-variables.md",
+      "relativePath": "skills/pe-clerk-production/references/csp-and-variables.md",
+      "sha256": "c36781f0d6e53e11fa9934c5c615798d5bdb3d0d503a55c13a51370ffc213e4a"
+    },
+    {
+      "sourcePath": "app-stack/skills/clerk-production/references/gotchas.md",
+      "relativePath": "skills/pe-clerk-production/references/gotchas.md",
+      "sha256": "de04a0f5ff8d51b05360b66d8bd2b5234d4dd042649774065091235ac7346883"
+    },
+    {
+      "sourcePath": "app-stack/skills/clerk-production/references/organizations-and-billing.md",
+      "relativePath": "skills/pe-clerk-production/references/organizations-and-billing.md",
+      "sha256": "909305f92227fba96d921dc0a16fb8e26f02e4dfa703ffe1ed03b04b6853a993"
+    },
+    {
+      "sourcePath": "app-stack/skills/clerk-production/references/sessions-and-front-door.md",
+      "relativePath": "skills/pe-clerk-production/references/sessions-and-front-door.md",
+      "sha256": "1e167b4c3d76530f30708131de4d62e0ece914e4298681ae7d8bb2610c277593"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/SKILL.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/SKILL.md",
+      "sha256": "80a423ae54cb2771987886cb872f81edea3b496faa7493f61538b4c5f0031fff"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/knowledge-agent.live.test.ts",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/knowledge-agent.live.test.ts",
+      "sha256": "4bbbe30d85aee70274aba56a69dec6ea5bee7da49dd1f689f2bd873a98936fde"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/knowledge-agent/AGENTS.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/knowledge-agent/AGENTS.md",
+      "sha256": "18dec2033c5a738c40185a113a65c567c2b00a2c8f3ba934e7bac07edf38d56d"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/jtbd.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/jtbd.md",
+      "sha256": "f1e7314a159a05606627ac1efedfd62febfeee74339c207c56deee49e5b27263"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/llms.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/llms.md",
+      "sha256": "9a10ced424fd636698876efdae4211c87deb0e15e355b4c9234725bd0bbd353a"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/okrs.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/okrs.md",
+      "sha256": "7f51444e7989e9be547c635842200884661b4f0f0f6a50f93f8ecfe7eccbdcba"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/product-strategy.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/product-strategy.md",
+      "sha256": "efceb3f4f1c0bbfd4cfb8762ee78512ed91f808b667507d621dd6088a726d09c"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/product-vision.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/knowledge-agent/knowledge/product-vision.md",
+      "sha256": "942dc55213bd93e67ac9796812bfc357aa76907b2e4c2001f7a544eb43b440ec"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/research-agent.live.test.ts",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/research-agent.live.test.ts",
+      "sha256": "2702662404a0afd9bdc904ece679feb50f0414240d5b38791f0f29483f399aec"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/research-agent/.mcp.json",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/research-agent/.mcp.json",
+      "sha256": "570eb2fafead6b3857675983164f53e6944680068915601d85f3f06625ae4f42"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/examples/research-agent/AGENTS.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/examples/research-agent/AGENTS.md",
+      "sha256": "ef734afbc65071b90b2701306c5cfa4804e01c3e5b1f7caf5d39335e3102ccde"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/reference/playbook.md",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/reference/playbook.md",
+      "sha256": "55298a92cfc512ca91e074ad79ddbcc5f88c652f08f97e14e24412055258c16e"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/scripts/discover-mcp-tools.mjs",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/scripts/discover-mcp-tools.mjs",
+      "sha256": "0063048de38421b3c0a7621aba15cda2edb23d7aa7d04cb5abb22c8f6bf2faad"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/scripts/new-agent.mjs",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/scripts/new-agent.mjs",
+      "sha256": "de6933ed171dd7b321cc750255e40bdf81326268f97dbea39f6f166ce699cb94"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/templates/agent.test.ts",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/templates/agent.test.ts",
+      "sha256": "097164dd426d7b7592d8d9e91702370395f590cb601da4c2138e211092620af6"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/templates/agent.ts",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/templates/agent.ts",
+      "sha256": "4921fc9091f166daf6e2f84d956cfb928f07fd9e6d58d7583b00d9e7802c7ec0"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/templates/agents.live.test.ts",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/templates/agents.live.test.ts",
+      "sha256": "e8c8aaa644455276922578f443e55f67e167afd2602fe1f9297557bc442e75e5"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-agent-sdk/templates/route.ts",
+      "relativePath": "skills/pe-embedded-agents-agent-sdk/templates/route.ts",
+      "sha256": "8bfc982c5f4c8172811e702bf35e996edd12fc532dfc9fc6553b94e6d9c87793"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/SKILL.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/SKILL.md",
+      "sha256": "3e6788c37de3a79be55c86007e3bd5e076068e0dffb3b82733430a67211ca957"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/knowledge-agent.live.test.ts",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/knowledge-agent.live.test.ts",
+      "sha256": "4bbbe30d85aee70274aba56a69dec6ea5bee7da49dd1f689f2bd873a98936fde"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/knowledge-agent/AGENTS.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/knowledge-agent/AGENTS.md",
+      "sha256": "2a56036fc2821c53654db36ea3d67160ce6e70c21f9a4d9b59eb36e197e355fe"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/knowledge-agent/knowledge/jtbd.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/knowledge-agent/knowledge/jtbd.md",
+      "sha256": "f1e7314a159a05606627ac1efedfd62febfeee74339c207c56deee49e5b27263"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/knowledge-agent/knowledge/llms.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/knowledge-agent/knowledge/llms.md",
+      "sha256": "9a10ced424fd636698876efdae4211c87deb0e15e355b4c9234725bd0bbd353a"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/knowledge-agent/knowledge/okrs.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/knowledge-agent/knowledge/okrs.md",
+      "sha256": "7f51444e7989e9be547c635842200884661b4f0f0f6a50f93f8ecfe7eccbdcba"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/knowledge-agent/knowledge/product-strategy.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/knowledge-agent/knowledge/product-strategy.md",
+      "sha256": "efceb3f4f1c0bbfd4cfb8762ee78512ed91f808b667507d621dd6088a726d09c"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/knowledge-agent/knowledge/product-vision.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/knowledge-agent/knowledge/product-vision.md",
+      "sha256": "942dc55213bd93e67ac9796812bfc357aa76907b2e4c2001f7a544eb43b440ec"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/research-agent.live.test.ts",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/research-agent.live.test.ts",
+      "sha256": "2702662404a0afd9bdc904ece679feb50f0414240d5b38791f0f29483f399aec"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/research-agent/.mcp.json",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/research-agent/.mcp.json",
+      "sha256": "570eb2fafead6b3857675983164f53e6944680068915601d85f3f06625ae4f42"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/examples/research-agent/AGENTS.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/examples/research-agent/AGENTS.md",
+      "sha256": "ef734afbc65071b90b2701306c5cfa4804e01c3e5b1f7caf5d39335e3102ccde"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/reference/playbook.md",
+      "relativePath": "skills/pe-embedded-agents-messages-api/reference/playbook.md",
+      "sha256": "e5728a42b553b5928d05aa2a0db208afcaa53bcf5fdd65af626b92e80d1bc30e"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/scripts/discover-mcp-tools.mjs",
+      "relativePath": "skills/pe-embedded-agents-messages-api/scripts/discover-mcp-tools.mjs",
+      "sha256": "5eeffb2933fd180c3d32bbda0a3ca587f2c25ef63efee090fe3c6c666ff86697"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/scripts/new-agent.mjs",
+      "relativePath": "skills/pe-embedded-agents-messages-api/scripts/new-agent.mjs",
+      "sha256": "de6933ed171dd7b321cc750255e40bdf81326268f97dbea39f6f166ce699cb94"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/templates/agent-mcp.ts",
+      "relativePath": "skills/pe-embedded-agents-messages-api/templates/agent-mcp.ts",
+      "sha256": "9714b78750ef8799245e0e599b4b920062cc425f965c4813fe8a75e0fb13ce6c"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/templates/agent.test.ts",
+      "relativePath": "skills/pe-embedded-agents-messages-api/templates/agent.test.ts",
+      "sha256": "641f5abb593d558d91a276fefee303e3132b867138d672eb6ad1a35886245354"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/templates/agent.ts",
+      "relativePath": "skills/pe-embedded-agents-messages-api/templates/agent.ts",
+      "sha256": "3c5573c9ff45cb4e259a3a087c0bf820c4a4dbeab0b2e825f74b0c558faa37dd"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/templates/agents.live.test.ts",
+      "relativePath": "skills/pe-embedded-agents-messages-api/templates/agents.live.test.ts",
+      "sha256": "2c9cc40eea0547f2ba8cd3be08771ba25938dca5891b917e0a902af950cc86ce"
+    },
+    {
+      "sourcePath": "app-stack/skills/embedded-agents-messages-api/templates/route.ts",
+      "relativePath": "skills/pe-embedded-agents-messages-api/templates/route.ts",
+      "sha256": "37d0ad78561400c4c8600a2cb1c391824e67aba438906278d517d64e92ad9d5c"
+    },
+    {
+      "sourcePath": "app-stack/skills/environments/SKILL.md",
+      "relativePath": "skills/pe-environments/SKILL.md",
+      "sha256": "fe0db6f79213c7058571ca4e223a32498624138f9d251f9596ba61daf922c58e"
+    },
+    {
+      "sourcePath": "app-stack/skills/environments/receipts.md",
+      "relativePath": "skills/pe-environments/receipts.md",
+      "sha256": "2ad7c3a330db809acfcb4262f536060198031ff53c119a980c80028dab51146e"
+    },
+    {
+      "sourcePath": "app-stack/skills/environments/references/data-and-incidents.md",
+      "relativePath": "skills/pe-environments/references/data-and-incidents.md",
+      "sha256": "74961d712fb9bd7e345d86cf6e79567b1013734c58f119d9de611e650c2c1dd5"
+    },
+    {
+      "sourcePath": "app-stack/skills/environments/references/domain-and-provider-access.md",
+      "relativePath": "skills/pe-environments/references/domain-and-provider-access.md",
+      "sha256": "b12fec6f6173f3b9eae200313ad8f0fb26f8c78b31ad2626c23bee37fa6bebbd"
+    },
+    {
+      "sourcePath": "app-stack/skills/environments/references/environments-and-branches.md",
+      "relativePath": "skills/pe-environments/references/environments-and-branches.md",
+      "sha256": "8dbceb414abcd0b2a1a429a83e8365868601a3e2afab416b90d7d6fff47d33cb"
+    },
+    {
+      "sourcePath": "app-stack/skills/environments/references/migrations-window.md",
+      "relativePath": "skills/pe-environments/references/migrations-window.md",
+      "sha256": "87d8691a6f2220fc48647429f09c097efb0205280650ef66c9cb0fb36a2a40a9"
+    },
+    {
+      "sourcePath": "app-stack/skills/environments/references/rebuild-from-nothing.md",
+      "relativePath": "skills/pe-environments/references/rebuild-from-nothing.md",
+      "sha256": "23e797cdee564936dd3b149e6a99b2a9ab6f0b004cdc34624be0a0568ba1ad1c"
+    },
+    {
+      "sourcePath": "app-stack/skills/environments/references/variables.md",
+      "relativePath": "skills/pe-environments/references/variables.md",
+      "sha256": "739751823516d22187e15e71cbc78f0464838a27642012c768c87ca211b017b0"
+    },
+    {
+      "sourcePath": "app-stack/skills/legal-pages/SKILL.md",
+      "relativePath": "skills/pe-legal-pages/SKILL.md",
+      "sha256": "c18818f1e24c97021c0ad4af090beff0fa31978a09289a865ac28be63aa858cb"
+    },
+    {
+      "sourcePath": "app-stack/skills/legal-pages/receipts.md",
+      "relativePath": "skills/pe-legal-pages/receipts.md",
+      "sha256": "b3b6a52e42b9e6cbc4c2f70324173ff5006cbe7d0591be9a1796aeca7fccdfa5"
+    },
+    {
+      "sourcePath": "app-stack/skills/mcp-server/SKILL.md",
+      "relativePath": "skills/pe-mcp-server/SKILL.md",
+      "sha256": "ee7bcd85efc9f1c253df4d1fd49161a4221a1564e9918ddcba66b99f2953bd50"
+    },
+    {
+      "sourcePath": "app-stack/skills/mcp-server/receipts.md",
+      "relativePath": "skills/pe-mcp-server/receipts.md",
+      "sha256": "e972e19eff08329ac59dcd35d83b90fb543285b3a1f50fb254c8339cbcfa50ed"
+    },
+    {
+      "sourcePath": "app-stack/skills/mcp-server/references/clients.md",
+      "relativePath": "skills/pe-mcp-server/references/clients.md",
+      "sha256": "3d3762e89b46c0da8cd1205ded74a937f80b9f181793fc89974451e39efa7a77"
+    },
+    {
+      "sourcePath": "app-stack/skills/mcp-server/references/companion-repo.md",
+      "relativePath": "skills/pe-mcp-server/references/companion-repo.md",
+      "sha256": "fa928d6900304e70471a0dc3419ac7a344bed770c6c276318659a0c6413fba13"
+    },
+    {
+      "sourcePath": "app-stack/skills/mcp-server/references/directories.md",
+      "relativePath": "skills/pe-mcp-server/references/directories.md",
+      "sha256": "d112906912be8b8d0dc7210054a36bac5996f5c523bf7e0225097825b1add63a"
+    },
+    {
+      "sourcePath": "app-stack/skills/mcp-server/references/server.md",
+      "relativePath": "skills/pe-mcp-server/references/server.md",
+      "sha256": "224914c8803d6ecc22196e2e1ec34eb769cd0cf777544effa3d558100eb6fab9"
+    },
+    {
+      "sourcePath": "app-stack/skills/mcp-server/references/tools.md",
+      "relativePath": "skills/pe-mcp-server/references/tools.md",
+      "sha256": "db78c12c7779fcf15c45516465aabc1794197f465b24c7919a8c83837b587702"
+    },
+    {
+      "sourcePath": "app-stack/skills/product-analytics/SKILL.md",
+      "relativePath": "skills/pe-product-analytics/SKILL.md",
+      "sha256": "c138e7932fa21e2583c9c81ec91a608dc4ec828ed9cd84a7c8d423bea1735d8d"
+    },
+    {
+      "sourcePath": "app-stack/skills/product-analytics/receipts.md",
+      "relativePath": "skills/pe-product-analytics/receipts.md",
+      "sha256": "4d33c216e51e3f28e03cd6fc63c94203221e045b9556be80a837c22a74658567"
+    },
+    {
+      "sourcePath": "app-stack/skills/saas-authorization/SKILL.md",
+      "relativePath": "skills/pe-saas-authorization/SKILL.md",
+      "sha256": "79ff04809929ff6372ca367794f590f2f9a2a393c857b8657cafbb0353a05451"
+    },
+    {
+      "sourcePath": "app-stack/skills/saas-authorization/receipts.md",
+      "relativePath": "skills/pe-saas-authorization/receipts.md",
+      "sha256": "85ba9c31446fd801fef17ad8b4eb60b00e6c41103dfe4f46d7e0f6ccc0e6ea6e"
+    },
+    {
+      "sourcePath": "app-stack/skills/saas-authorization/references/documents-and-tests.md",
+      "relativePath": "skills/pe-saas-authorization/references/documents-and-tests.md",
+      "sha256": "dcd58163c6a28c5b88590f2af7a7ba6cb9a0d7b57038b11d54dcdcd09e49a87f"
+    },
+    {
+      "sourcePath": "app-stack/skills/saas-authorization/references/model.md",
+      "relativePath": "skills/pe-saas-authorization/references/model.md",
+      "sha256": "354a4a0a57b942cfff5938737d8e916b8833ec501072a35dc27e504447026f1b"
+    },
+    {
+      "sourcePath": "app-stack/skills/saas-authorization/references/threat-model.md",
+      "relativePath": "skills/pe-saas-authorization/references/threat-model.md",
+      "sha256": "64c221e4731db3e90fb276a72b53523e31712f241faa49a35d6a5ffdcbcada53"
+    },
+    {
+      "sourcePath": "app-stack/skills/supabase-production/SKILL.md",
+      "relativePath": "skills/pe-supabase-production/SKILL.md",
+      "sha256": "e6836b8ccec31c3db56ddc11c8bb5dee781016016c9a35dc8b09aeaa161868ad"
+    },
+    {
+      "sourcePath": "app-stack/skills/supabase-production/receipts.md",
+      "relativePath": "skills/pe-supabase-production/receipts.md",
+      "sha256": "79a78762a2a7204caffb4fd74cda61c16450a85e0f83e9a1d0c7fdadcf28780d"
+    },
+    {
+      "sourcePath": "app-stack/skills/supabase-production/references/access-model.md",
+      "relativePath": "skills/pe-supabase-production/references/access-model.md",
+      "sha256": "2ec0646bc65a87dc8a52d52ce283c61c8451e9a4206dec23072214d8bbac45c8"
+    },
+    {
+      "sourcePath": "app-stack/skills/supabase-production/references/gotchas.md",
+      "relativePath": "skills/pe-supabase-production/references/gotchas.md",
+      "sha256": "8cad30b979495abc2bdb4088761633cf7b6698c929193bfd806aa24d2fe1bfce"
+    },
+    {
+      "sourcePath": "app-stack/skills/supabase-production/references/migrations.md",
+      "relativePath": "skills/pe-supabase-production/references/migrations.md",
+      "sha256": "b561fe357488dfe8a94af01cb52686f881f4cb4f27d4e72b6a089f0a311a81a7"
+    },
+    {
+      "sourcePath": "app-stack/skills/supabase-production/references/projects-and-backups.md",
+      "relativePath": "skills/pe-supabase-production/references/projects-and-backups.md",
+      "sha256": "329255ebdacb7ef03134229df1a7d78cb05fe90239806c938628207231f50d92"
+    },
+    {
+      "sourcePath": "app-stack/skills/transactional-email/SKILL.md",
+      "relativePath": "skills/pe-transactional-email/SKILL.md",
+      "sha256": "bf382b5764352a6388f7a107edc0299daafada01f42d24cb9726da49e0620d2a"
+    },
+    {
+      "sourcePath": "app-stack/skills/transactional-email/receipts.md",
+      "relativePath": "skills/pe-transactional-email/receipts.md",
+      "sha256": "a49c3aafc79b6cf80e97d0190857463f4e6d39f7b990ecf056e4cb440d5a3774"
+    },
+    {
+      "sourcePath": "app-stack/skills/transactional-email/references/delivery.md",
+      "relativePath": "skills/pe-transactional-email/references/delivery.md",
+      "sha256": "29a41528b41dae889491b858e60fbf7bd749a5f04459002e05a7e6fc822866bb"
+    },
+    {
+      "sourcePath": "app-stack/skills/ui-design/SKILL.md",
+      "relativePath": "skills/pe-ui-design/SKILL.md",
+      "sha256": "c8f001aeb7ddb42a15f53547200fdc803d7e48090100cc0eaf1b6dcc5e22f18f"
+    },
+    {
+      "sourcePath": "app-stack/skills/ui-design/receipts.md",
+      "relativePath": "skills/pe-ui-design/receipts.md",
+      "sha256": "8798fd4c806cb16a19818a613b0691a699dd772aeb73239194939007d69bfdff"
+    },
+    {
+      "sourcePath": "app-stack/skills/ui-design/references/collections.md",
+      "relativePath": "skills/pe-ui-design/references/collections.md",
+      "sha256": "b578881b003b5910cbb94109f25f498b94b7b6bb18bb080a0fe030a2018a9bac"
+    },
+    {
+      "sourcePath": "app-stack/skills/ui-design/references/method.md",
+      "relativePath": "skills/pe-ui-design/references/method.md",
+      "sha256": "e9957b1e76f072bd5962280201097452153d8c5a23f7b3849ef19a96ed7ee979"
+    },
+    {
+      "sourcePath": "app-stack/skills/ui-design/references/review.md",
+      "relativePath": "skills/pe-ui-design/references/review.md",
+      "sha256": "052d81c4ca5c650eadac93256e6b24b3afa1bf5dddedbf703140cc443fa593ad"
+    },
+    {
+      "sourcePath": "app-stack/skills/ui-design/references/screens.md",
+      "relativePath": "skills/pe-ui-design/references/screens.md",
+      "sha256": "b79a9a764d0afa290864ac5ef5488894aafacb2a77fd199f0e5799acfd7249a9"
+    },
+    {
+      "sourcePath": "app-stack/skills/ui-design/scripts/color.py",
+      "relativePath": "skills/pe-ui-design/scripts/color.py",
+      "sha256": "1dd0181ca0e72e2c2ba2b760a94bf9ad2c92ca1261a0088e54e78a41ee50a3a9"
+    },
+    {
+      "sourcePath": "app-stack/skills/uptime-monitoring/SKILL.md",
+      "relativePath": "skills/pe-uptime-monitoring/SKILL.md",
+      "sha256": "49d51bada8a9a72f5e642907255dbd682489fe4128d208036fee79f16cc549bb"
+    },
+    {
+      "sourcePath": "app-stack/skills/uptime-monitoring/receipts.md",
+      "relativePath": "skills/pe-uptime-monitoring/receipts.md",
+      "sha256": "bae1efc771acc6a3a37368a013165eb88fe6f8bf2b7ea7201d4894354884a598"
+    },
+    {
+      "sourcePath": "app-stack/skills/uptime-monitoring/references/staygreen.md",
+      "relativePath": "skills/pe-uptime-monitoring/references/staygreen.md",
+      "sha256": "a2c67afd28a2fb5a41d8faa89a6e48eb04b96ae408ea1896cfb210fedfd51bd3"
+    },
+    {
+      "sourcePath": "product/skills/beachhead-segment/SKILL.md",
+      "relativePath": "skills/pe-beachhead-segment/SKILL.md",
+      "sha256": "1c0936b0089501492703a6a95347f303670a38acab716f9fbce0bd3638159953"
+    },
+    {
+      "sourcePath": "product/skills/beachhead-segment/receipts.md",
+      "relativePath": "skills/pe-beachhead-segment/receipts.md",
+      "sha256": "eb52f8bbf80869bf950cd300c3e48a2084f5ae9b40cd1be8c5260c599e6e352a"
+    },
+    {
+      "sourcePath": "product/skills/competitor-analysis/SKILL.md",
+      "relativePath": "skills/pe-competitor-analysis/SKILL.md",
+      "sha256": "f824424da98dbbf7918d79ef5389f15c94f2e7a24e12cdd54395cb573d1d64a8"
+    },
+    {
+      "sourcePath": "product/skills/growth-loops/SKILL.md",
+      "relativePath": "skills/pe-growth-loops/SKILL.md",
+      "sha256": "52bd8d876bed230fe9c4cca830607295ab097122b5e1b09bb88d1dd182380be5"
+    },
+    {
+      "sourcePath": "product/skills/market-segments/SKILL.md",
+      "relativePath": "skills/pe-market-segments/SKILL.md",
+      "sha256": "08ab5d0bbb9e0429224a1d27be49848159cbec2dbbda5cceb1f33af24c51e41e"
+    },
+    {
+      "sourcePath": "product/skills/propose/SKILL.md",
+      "relativePath": "skills/pe-propose/SKILL.md",
+      "sha256": "22d2664942f2770caabeb3206e92b925263c066369fb45d994e6785fc73858b6"
+    },
+    {
+      "sourcePath": "product/skills/propose/receipts.md",
+      "relativePath": "skills/pe-propose/receipts.md",
+      "sha256": "b4959ba01b27ec47b2641ff22b3fbe6ef6bc902f19d261a89c33e79a71b6e627"
+    },
+    {
+      "sourcePath": "product/skills/propose/references/proposal.md",
+      "relativePath": "skills/pe-propose/references/proposal.md",
+      "sha256": "534046068d53c38dac208c318e3faeafce84f48fe940c308d782f6942ac50e2f"
+    },
+    {
+      "sourcePath": "product/skills/start-here/SKILL.md",
+      "relativePath": "skills/pe-start-here/SKILL.md",
+      "sha256": "aa84b094c2c5cf3d3fe56111d26ea7d22fddcb60d88c9b3097f3561eecd4d925"
+    },
+    {
+      "sourcePath": "product/skills/start-here/agents/openai.yaml",
+      "relativePath": "skills/pe-start-here/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "sourcePath": "product/skills/start-here/receipts.md",
+      "relativePath": "skills/pe-start-here/receipts.md",
+      "sha256": "6e21a500d053d7c2ac4b3f7bac6c3f9786bdb72a97e8665ab2341325f2c5eeb9"
+    },
+    {
+      "sourcePath": "product/skills/value-curve/SKILL.md",
+      "relativePath": "skills/pe-value-curve/SKILL.md",
+      "sha256": "5425e5134418f9a2708cb32ffe4e11a22b5496bee97447b7284873e8c1557b11"
+    },
+    {
+      "sourcePath": "product/skills/value-curve/receipts.md",
+      "relativePath": "skills/pe-value-curve/receipts.md",
+      "sha256": "0611420016acec1d5617de7af5098bce6dc85a4c23d9a5b43dd829e7805f8762"
+    },
+    {
+      "sourcePath": "product/skills/value-proposition/SKILL.md",
+      "relativePath": "skills/pe-value-proposition/SKILL.md",
+      "sha256": "d96dd37bc9daa3a52d608eb203535a8f2ef3dea93edce898357fc06a901f1ef0"
+    },
+    {
+      "sourcePath": "sources.json",
+      "relativePath": "upstream/sources.json",
+      "sha256": "8f23696e6e846c8c8ed037ece889baa8277c17ef4c4058e365ef31201339f070"
+    },
+    {
+      "sourcePath": "work-humanizer/skills/work-humanizer/SKILL.md",
+      "relativePath": "skills/pe-work-humanizer/SKILL.md",
+      "sha256": "140f0477b40aba56b41f1f8a45ce548dceb2a5114265a276b9bc5c2f0a124b5a"
+    },
+    {
+      "sourcePath": "work-humanizer/skills/work-humanizer/check.py",
+      "relativePath": "skills/pe-work-humanizer/check.py",
+      "sha256": "d8d19e486c5fe69c1c3541ba427eb7067eeae822cff2c2b81395b6364f890d1c"
+    },
+    {
+      "sourcePath": "work-humanizer/skills/work-humanizer/tells.md",
+      "relativePath": "skills/pe-work-humanizer/tells.md",
+      "sha256": "073c69670ac8710da552d39d190a5c026ec329e062b30c45e34546a8c6d8db09"
+    }
+  ]
+}
